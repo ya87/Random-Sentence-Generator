@@ -56,7 +56,7 @@ def makeRandomSentence(word_dict, start_words):
 
 
 
-filelocs = ['alice_tiny.txt', 'alice_test.txt']
+filelocs = ['../data/alice_tiny.txt', '../data/alice_test.txt']
 words = getWordListFromData(filelocs)
 word_dict = trainMarkovChain(words)
 start_words = getStartWords(words)
